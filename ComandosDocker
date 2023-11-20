@@ -1,0 +1,5 @@
+DOCKER COMPOSE DOWN - Ele para o container e remove os container definidos no docker-compose.yml
+
+DOCKER COMPOSE UP -D - Cria os container definidos no arquivo docker-compose.yml
+
+RM -RF .docker/dbdata - apaga a pasta .docker/dbdata
