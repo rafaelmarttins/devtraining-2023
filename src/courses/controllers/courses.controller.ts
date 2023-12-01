@@ -16,7 +16,6 @@ import { UpdateCourseDto } from '../dto/update-course-dto';
 @Controller('courses')
 export class CoursesController {
   constructor(private readonly courseService: CoursesService) {}
-
   @Get()
   findAll() {
     return this.courseService.findAll();

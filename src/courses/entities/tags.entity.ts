@@ -21,7 +21,7 @@ export class Tag {
   courses: Course[];
 
   @CreateDateColumn({ type: 'timestamp' })
-  create_at: Date;
+  created_at: Date;
 
   @BeforeInsert()
   generetedId() {
